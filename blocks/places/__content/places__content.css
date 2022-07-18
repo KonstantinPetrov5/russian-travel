@@ -1,0 +1,7 @@
+.places__content {
+  margin-bottom: 80px;
+}
+
+.places__content:last-child {
+  margin-bottom: 0;
+}

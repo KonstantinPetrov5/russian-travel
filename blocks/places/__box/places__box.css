@@ -1,0 +1,9 @@
+.places__box {
+  flex: 1 0 340px;
+}
+
+@media screen and (max-width: 767px) {
+  .places__box {
+    flex: 1 0 250px;
+  }
+}

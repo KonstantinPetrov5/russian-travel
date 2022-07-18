@@ -1,0 +1,39 @@
+.page {
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  color: #FFFFFF;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  background-color: #2A2C2F;
+}
+
+h1, h2, h3, h4 {
+  text-rendering: optimizeLegibility;
+}
+
+[class*="__container"] {
+  max-width: 1184px;
+  margin: 0 auto 92px;
+  padding: 0 48px;
+}
+
+@media screen and (max-width: 1023px) {
+  [class*="__container"] {
+    padding: 0 24px;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  [class*="__container"] {
+    padding: 0 16px;
+    margin-bottom: 66px;
+  }
+}
