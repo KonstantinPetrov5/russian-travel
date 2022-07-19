@@ -2,7 +2,15 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 1.5;
+  color: #FFFFFF;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }

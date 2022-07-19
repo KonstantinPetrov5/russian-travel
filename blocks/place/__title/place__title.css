@@ -1,9 +1,10 @@
-.intro__title {
+.place__title {
+  flex: 1 0 340px;
   margin: 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 54px;
+  font-size: 72px;
   line-height: 1;
   color: #FFFFFF;
   -moz-osx-font-smoothing: grayscale;
@@ -14,8 +15,15 @@
   text-rendering: optimizeLegibility;
 }
 
+@media screen and (max-width: 1023px) {
+  .place__title {
+    font-size: calc(42px + (72 - 42) * ((100vw - 768px) / (1024 - 768)));
+  }
+}
+
 @media screen and (max-width: 767px) {
-  .intro__title {
-    font-size: calc(32px + (54 - 32) * ((100vw - 320px) / (768 - 320)));
+  .place__title {
+    flex: 1 0 250px;
+    font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
   }
 }

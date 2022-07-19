@@ -1,26 +1,20 @@
-.footer__link {
-  text-decoration: none;
+.place__link {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.1;
+  font-size: 18px;
+  line-height: 1.2;
   color: #FFFFFF;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+  text-underline-offset: 3px;
   transition: all .3s ease;
 }
 
-.footer__link:hover {
-  opacity: .6;
+.place__link:hover {
+  opacity: .8;
   transition: all .3s ease;
-}
-
-@media screen and (max-width: 767px) {
-  .footer__link {
-    font-size: 24px;
-  }
 }

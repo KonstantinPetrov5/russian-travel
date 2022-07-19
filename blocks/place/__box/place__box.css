@@ -1,9 +1,13 @@
-.places__box {
+.place__box {
   flex: 1 0 340px;
 }
 
+.place__box:nth-child(2) {
+  align-self: flex-end;
+}
+
 @media screen and (max-width: 767px) {
-  .places__box {
+  .place__box {
     flex: 1 0 250px;
   }
 }
