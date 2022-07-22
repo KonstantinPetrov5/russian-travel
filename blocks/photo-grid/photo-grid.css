@@ -1,17 +1,17 @@
-.wrap {
+.photo-grid {
   max-width: 1184px;
   margin: 0 auto;
   padding: 0 48px;
 }
 
 @media screen and (max-width: 1023px) {
-  .wrap {
+  .photo-grid {
     padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .wrap {
+  .photo-grid {
     padding: 0 16px;
   }
 }

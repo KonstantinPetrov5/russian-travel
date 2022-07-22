@@ -23,7 +23,8 @@
 
 @media screen and (max-width: 767px) {
   .place__title {
-    flex: 1 0 250px;
+    flex: 1 1 400px;
+    padding: 0 16px;
     font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
   }
 }
